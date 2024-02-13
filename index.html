@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sumit Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,400;1,600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(0, 0, 14);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 90px;
+            background-color: rgb(18, 18, 50);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 20px;
+        }
+
+        nav ul li {
+            color: white;
+        }
+
+        nav ul li:hover {
+            cursor: grab;
+            text-decoration: none;
+            color: lavender;
+            font-size: 1.05rem;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 30px;
+        }
+
+        .firstsection>div {
+            width: 30%;
+        }
+
+        .leftsection {
+
+            font-size: 2.3rem;
+            margin-right: 0;
+
+        }
+
+        
+
+        .leftsection .btn1 {
+            background-color: #310a31;
+            padding: 12px;
+            color: white;
+            border: 2px solid;
+            border-radius: 30px;
+            cursor: pointer;
+            margin-top: 30px;
+        }
+
+        .leftsection .btn2 {
+            background-color: white;
+            padding: 12px;
+            color: black;
+            border: 2px solid #310a31;
+            border-radius: 30px;
+            cursor: pointer;
+            margin-top: 30px;
+        }
+
+        .rightsection img {
+            width: 450px;
+            margin-top: 30px;
+        }
+
+        .secondsection h1 {
+            margin-top: 0;
+            font-size: 1.5rem;
+        }
+
+        .purple {
+            color: rgb(151, 40, 255);
+
+        }
+
+        .text-grey {
+            color: gray;
+
+        }
+
+        #element {
+            color: rgb(151, 40, 255);
+        }
+
+        .secondsection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        .secondsection .box {
+            background: white;
+            width: 75vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+
+        .secondsection .vertical {
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 90px;
+        }
+
+        main hr {
+            border: 0;
+            background-color: rgb(114, 33, 190);
+            height: 1.2px;
+            margin: 60px 60px;
+
+        }
+
+        .image-top {
+            width: 23px;
+            position: relative;
+            top: -32px;
+            left: -9px;
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 74px;
+            left: -4px;
+            width: 150px;
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 81px;
+            color: gray;
+            width: 150px;
+            font-size: 9px;
+        }
+
+        .footer {
+            background: rgb(24, 9, 39);
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-evenly;
+        }
+
+        .footer li {
+            list-style: none;
+            justify-content: space-evenly;
+        }
+
+        .footer>div {
+            width: 223px;
+        }
+
+        footer>.footer-rights {
+            justify-content: center;
+            align-items: center;
+            color: gray;
+            background-color: rgb(24, 9, 39);
+            text-align: center;
+            padding: 5px
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Sumit's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Projects</li>
+                    <li>Contact Me</li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">Hi, My name is <span class="purple">
+                    Sumit
+                </span>
+                <div> and I am a Passionate</div>
+                <span id="element"></span>
+                <div>
+                    <button class="btn1">Download Resume</button>
+                    <button class="btn2">Visit Github</button>
+                </div>
+            </div>
+
+
+            <div class="rightsection"><img src="./web-development.png" alt="developer"></div>
+
+        </section>
+        <hr>
+        <section class="secondsection">
+            <span class="text-grey"> What I have done so Far</span>
+            <h1>Work Experiences</h1>
+
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="./html-5.png" alt="developer">
+                    <div class="vertical-title">
+                        HTML Developer (2010-2012)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga modi saepe eaque alias, dolorem
+                        nulla odit et molestiae soluta aliquam sapiente nesciunt molestias voluptas natus error
+                        consectetur, maiores placeat at!
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="./react-logo-1.png" alt="developer">
+                    <div class="vertical-title">
+                        React Developer (2013-2015)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga modi saepe eaque alias, dolorem
+                        nulla odit et molestiae soluta aliquam sapiente nesciunt molestias voluptas natus error
+                        consectetur, maiores placeat at!
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="./pngwing.com.png" alt="developer">
+                    <div class="vertical-title">
+                        Node JS Developer (2016-2018)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. dolorem
+                        nulla odit et molestiae soluta aliquam sapiente nesciunt maiores placeat at!
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="./pngaaa.com-2196979.png" alt="developer">
+                    <div class="vertical-title">
+                        PHP Developer (2018-2019)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga modi saepe eaque alias, dolorem
+                        nulla odit et molestiae soluta aliquam sapiente nesciunt molestias voluptas natus error
+                        consectetur, maiores placeat at!
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="./pngwing.com (1).png" alt="developer">
+                    <div class="vertical-title">
+                        Java Developer (2020-2021)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga modi saepe eaque alias, dolorem
+                        nulla odit et molestiae soluta, maiores placeat at!
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="./python-5-logo-png-transparent.png" alt="developer">
+                    <div class="vertical-title">
+                        Python Developer (2021-2023)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga modi saepe eaque alias, dolorem
+                        nulla odit et molestiae soluta aliquam sapiente nesciunt molestias voluptas natus error
+                        consectetur, maiores placeat at!
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Sumit's Developer Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <li>Home</li>
+                <li>About</li>
+                <li>Services</li>
+                <li>Contact</li>
+            </div>
+            <div class="footer-fourth">
+                <li>Home</li>
+                <li>About</li>
+                <li>Services</li>
+                <li>Contact</li>
+            </div>
+
+        </div>
+        <div class="footer-rights">
+            Copyright &#169 MyPortfolio.com || All Rights Reserved
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Programmer', 'Web Designer', 'Video Editor'],
+            typeSpeed: 50,
+        });
+    </script>
+
+</body>
+
+</html>
